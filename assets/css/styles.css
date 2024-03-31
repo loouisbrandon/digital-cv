@@ -1,0 +1,194 @@
+body {
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave */
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo do corpo */
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centralizar o conteúdo */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    max-width: 800px; /* Defina a largura máxima do cabeçalho */
+}
+
+
+button{
+    font-family: "Source Code Pro", monospace;
+    background-color: #ffffff;
+    width: 220px;
+    border-radius: 4px;
+    margin-top: 24px;
+    border: none;
+}
+
+button:hover{
+    background-color: #ff9100;
+   
+}
+
+.modo-noturno {
+    background-color: black; /* Define a cor de fundo do modo noturno */
+    color: white; /* Define a cor do texto como branco */
+}
+
+.modo-noturno header{
+    background-color: white; /* Cor do quadrado no modo noturno */
+    color: black; /* Cor do texto no modo noturno */
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+#contact {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#contact ul{
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 15px;
+}
+
+#contact ul li a {
+    font-family: "Source Code Pro", monospace;
+    color: #ff9100;
+}
+
+.divider {
+    border-top: 3px solid black;
+    width: 70%;
+    margin: 20px auto;
+    
+}
+
+#about {
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 250px;
+}
+
+#experience {
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 250px;
+}
+
+#job {
+    font-family: "Source Code Pro", monospace;
+}
+
+.ball {
+    list-style-type: disc; /* Define o tipo de marcador como uma bolinha */
+    padding-left: 20px; /* Adiciona um recuo à esquerda para os itens */
+}
+
+.point {
+    list-style-type: disc; /* Define o tipo de marcador como uma bolinha */
+    padding-left: 20px; /* Adiciona um recuo à esquerda para os itens */
+}
+
+#academic {
+    
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 250px;
+}
+
+#academic p {
+    font-family: "Source Code Pro", monospace;
+}
+
+#tech {
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 250px;
+}
+
+#certification {
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 250px;
+}
+
+#languages {
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+
+
+footer {
+    font-family: "Source Code Pro", monospace;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.modo-noturno footer{
+    background-color: white; /* Cor do quadrado no modo noturno */
+    color: black; /* Cor do texto no modo noturno */
+    
+}
+/* Adicione mais estilos conforme necessário */
+/* Estilos para telas menores que 600px de largura */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 180px;
+    }
+
+    #about, #experience, #academic, #tech, #certification, #languages {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #job {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para telas menores que 400px de largura */
+@media screen and (max-width: 400px) {
+    header {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    button {
+        width: 150px;
+    }
+
+    #about, #experience, #academic, #tech, #certification, #languages {
+        max-width: 95%;
+    }
+
+    #job {
+        font-size: 12px;
+    }
+}
